@@ -20,7 +20,7 @@
 
 1. 根据输入文件类型（PDF 或图片）进行预处理，如果是图片，会自动转换为 PDF
 2. 调用 Mistral API 进行 OCR 识别，获取 OCR 结果
-3. `Python Markdown` 将识别的内容整理为 Markdown 格式，并生成预览所需的 HTML
+3. `Python Markdown` 与 `md4mathjax`、`extra` 拓展将识别的内容整理为 Markdown 格式，并生成预览所需的 HTML
 4. 识别结果导出至 `outputs` 文件夹
 
 ## 页面设计
