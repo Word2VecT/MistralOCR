@@ -35,7 +35,7 @@
 
 ```bash
 git clone https://github.com/Word2VecT/MistralOCR
-cd mistral_ocr
+cd MistralOCR
 ```
 
 ### 2. 安装依赖
