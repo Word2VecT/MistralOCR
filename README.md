@@ -112,6 +112,7 @@ mistral_ocr/
 
 ## 效果展示
 
+![测试图片](demo/test.png)
 ![主要页面](demo/main.png)
 ![预览页面](demo/preview.png)
 
