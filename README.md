@@ -34,7 +34,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <你的项目仓库地址>
+git clone https://github.com/Word2VecT/MistralOCR
 cd mistral_ocr
 ```
 
