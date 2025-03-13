@@ -1,6 +1,6 @@
 # Mistral OCR Markdown Viewer
 
-一个基于 Mistral API 的 OCR 工具，支持 PDF 和图片文件的文字识别，并提供 Markdown 格式的预览功能。
+一个基于 Mistral API 的 OCR 工具，支持 PDF 和图片文件的文字识别，并提供 Markdown 格式的预览功能
 
 <div style="text-align: center;">
   <img src="demo/logo.jpeg" alt="LOGO" style="width:200px; height:auto;" />
@@ -40,7 +40,9 @@ cd mistral_ocr
 
 ### 2. 安装依赖
 
-本项目使用 `uv` 进行依赖管理，确保你已安装 [uv](https://github.com/astral-sh/uv)。在 MacOS 上推荐使用 [Homebrew](https://brew.sh) 安装，在 Windows 上推荐使用 [Scoop](https://scoop.sh)。
+本项目使用 `uv` 进行依赖管理，确保你已安装 [uv](https://github.com/astral-sh/uv)
+
+在 MacOS 上推荐使用 [Homebrew](https://brew.sh) 安装，在 Windows 上推荐使用 [Scoop](https://scoop.sh)
 
 创建初始虚拟环境：
 
@@ -65,9 +67,9 @@ set -Ux MISTRAL_API_KEY "你的API密钥"                        # For Fish
 Setx MISTRAL_API_KEY "你的API密钥"                          # For PowerShell
 ```
 
-然后重启终端。
+然后重启终端
 
-或在程序界面中输入密钥。
+或在程序界面中输入密钥
 
 ## 运行程序
 
@@ -105,8 +107,8 @@ mistral_ocr/
 
 ## 注意事项
 
-- 确保你的网络环境可以访问 Mistral API。
-- OCR 处理速度取决于文件大小和网络状况，请耐心等待处理完成。
+- 确保你的网络环境可以访问 Mistral API
+- OCR 处理速度取决于文件大小和网络状况，请耐心等待处理完成
 
 ## 效果展示
 
@@ -123,4 +125,4 @@ mistral_ocr/
 
 ## 许可证
 
-本项目采用 Apache-2.0 许可证，详情请参阅 [LICENSE](LICENSE) 文件。
+本项目采用 Apache-2.0 许可证，详情请参阅 [LICENSE](LICENSE) 文件
