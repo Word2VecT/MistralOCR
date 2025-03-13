@@ -63,8 +63,8 @@ uv pip install -r pyproject.toml
 ```bash
 echo 'export MISTRAL_API_KEY="你的API密钥"' >> ~/.bashrc   # For Bash
 echo 'export MISTRAL_API_KEY="你的API密钥"' >> ~/.zshrc    # For Zsh
-set -Ux MISTRAL_API_KEY "你的API密钥"                        # For Fish
-Setx MISTRAL_API_KEY "你的API密钥"                          # For PowerShell
+set -Ux MISTRAL_API_KEY "你的API密钥"                      # For Fish
+Setx MISTRAL_API_KEY "你的API密钥"                         # For PowerShell
 ```
 
 然后重启终端
