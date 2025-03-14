@@ -45,11 +45,11 @@ cd MistralOCR
 在 MacOS 上推荐使用 [Homebrew](https://brew.sh) 安装，在 Windows 上推荐使用 [Scoop](https://scoop.sh)
 
 ```
-brew install uv                                                                         # For Homebrew
-curl -LsSf https://astral.sh/uv/install.sh | sh                                         # For Linux and MacOS by official
+brew install uv                                        # For Homebrew
+curl -LsSf https://astral.sh/uv/install.sh | sh        # For Linux and MacOS by official
 
-scoop install uv                                                                        # For Scoop
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex".     # For Windows by official
+scoop install uv                                       # For Scoop
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex".        # For Windows by official
 ```
 
 创建初始虚拟环境：
